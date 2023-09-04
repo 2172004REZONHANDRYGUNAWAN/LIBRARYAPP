@@ -19,9 +19,9 @@
    <children>
       <BorderPane layoutX="315.0" layoutY="222.0" prefHeight="600.0" prefWidth="986.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <AnchorPane prefHeight="61.0" prefWidth="989.0" styleClass="top-form" stylesheets="@../../../../CSS/DashboardDesain.css" BorderPane.alignment="CENTER">
+            <AnchorPane prefHeight="61.0" prefWidth="989.0" styleClass="top-form" stylesheets="@CSS/DashboardDesain.css" BorderPane.alignment="CENTER">
                <children>
-                  <AnchorPane prefHeight="61.0" prefWidth="988.0" styleClass="semiTop-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                  <AnchorPane prefHeight="61.0" prefWidth="988.0" styleClass="semiTop-form" stylesheets="@CSS/DashboardDesain.css">
                      <children>
                         <Button layoutX="33.0" layoutY="16.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="58.0" text="&lt;">
                            <font>
@@ -46,12 +46,12 @@
                         <Line endX="-9.5" endY="21.5" layoutX="217.0" layoutY="32.0" startX="-9.5" startY="-22.5" />
                      </children>
                   </AnchorPane>
-                  <Button fx:id="close" layoutX="937.0" layoutY="20.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: red;" styleClass="close-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="X" />
+                  <Button fx:id="close" layoutX="937.0" layoutY="20.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: red;" styleClass="close-btn" stylesheets="@CSS/DashboardDesain.css" text="X" />
                   <Button fx:id="minimize" layoutX="899.0" layoutY="20.0" mnemonicParsing="false" onAction="#minimize" text="--" />
                </children></AnchorPane>
          </top>
          <left>
-            <AnchorPane fx:id="nav_form" prefHeight="200.0" prefWidth="200.0" styleClass="nav-form" stylesheets="@../../../../CSS/DashboardDesain.css" BorderPane.alignment="CENTER">
+            <AnchorPane fx:id="nav_form" prefHeight="200.0" prefWidth="200.0" styleClass="nav-form" stylesheets="@CSS/DashboardDesain.css" BorderPane.alignment="CENTER">
                <children>
                   <Circle fx:id="circle_image" fill="#6f6f6f" layoutX="100.0" layoutY="88.0" radius="67.0" stroke="BLACK" strokeType="INSIDE" />
                   <Label layoutX="64.0" layoutY="165.0" text="Welcome" textFill="WHITE">
@@ -65,12 +65,12 @@
                      </font>
                   </Label>
                   <Label layoutX="7.0" layoutY="188.0" prefHeight="17.0" prefWidth="54.0" text="Student# " textFill="#979797" />
-                  <Button fx:id="availableBooks_btn" layoutX="23.0" layoutY="225.0" mnemonicParsing="false" onAction="#navButtonDesign" prefHeight="38.0" prefWidth="154.0" styleClass="nav-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Available Books" />
-                  <Button fx:id="savedBooks_btn" layoutX="25.0" layoutY="369.0" mnemonicParsing="false" onAction="#navButtonDesign" prefHeight="40.0" prefWidth="152.0" styleClass="nav-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Saved Books" />
-                  <Button fx:id="returnBooks_btn" layoutX="23.0" layoutY="320.0" mnemonicParsing="false" onAction="#navButtonDesign" prefHeight="40.0" prefWidth="154.0" styleClass="nav-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Return Books" />
-                  <Button fx:id="issueBooks_btn" layoutX="23.0" layoutY="272.0" mnemonicParsing="false" onAction="#navButtonDesign" prefHeight="38.0" prefWidth="154.0" styleClass="nav-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Issue Books" />
+                  <Button fx:id="availableBooks_btn" layoutX="23.0" layoutY="225.0" mnemonicParsing="false" onAction="#navButtonDesign" prefHeight="38.0" prefWidth="154.0" styleClass="nav-btn" stylesheets="@CSS/DashboardDesain.css" text="Available Books" />
+                  <Button fx:id="savedBooks_btn" layoutX="25.0" layoutY="369.0" mnemonicParsing="false" onAction="#navButtonDesign" prefHeight="40.0" prefWidth="152.0" styleClass="nav-btn" stylesheets="@CSS/DashboardDesain.css" text="Saved Books" />
+                  <Button fx:id="returnBooks_btn" layoutX="23.0" layoutY="320.0" mnemonicParsing="false" onAction="#navButtonDesign" prefHeight="40.0" prefWidth="154.0" styleClass="nav-btn" stylesheets="@CSS/DashboardDesain.css" text="Return Books" />
+                  <Button fx:id="issueBooks_btn" layoutX="23.0" layoutY="272.0" mnemonicParsing="false" onAction="#navButtonDesign" prefHeight="38.0" prefWidth="154.0" styleClass="nav-btn" stylesheets="@CSS/DashboardDesain.css" text="Issue Books" />
                   <Button fx:id="edit_btn" layoutX="31.0" layoutY="21.0" mnemonicParsing="false" onAction="#insertImage" prefHeight="135.0" prefWidth="143.0" style="-fx-background-color: transparent;" textFill="#868585" />
-                  <Button fx:id="logout_btn" layoutX="69.0" layoutY="468.0" mnemonicParsing="false" onAction="#logout" styleClass="logout-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Sign Out" textFill="WHITE" />
+                  <Button fx:id="logout_btn" layoutX="69.0" layoutY="468.0" mnemonicParsing="false" onAction="#logout" styleClass="logout-btn" stylesheets="@CSS/DashboardDesain.css" text="Sign Out" textFill="WHITE" />
                   <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="84.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@GAMBAR/editprofile.png" />
@@ -86,7 +86,7 @@
                      <children>
                         <AnchorPane fx:id="availableBooks_form" prefHeight="599.0" prefWidth="805.0">
                            <children>
-                              <AnchorPane layoutX="296.0" layoutY="18.0" prefHeight="472.0" prefWidth="476.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                              <AnchorPane layoutX="296.0" layoutY="18.0" prefHeight="472.0" prefWidth="476.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                                  <children>
                                     <TableView fx:id="availableBooks_tableView" layoutX="11.0" layoutY="11.0" onMouseClicked="#selectAvailableBooks" prefHeight="543.0" prefWidth="458.0">
                                        <columns>
@@ -98,15 +98,15 @@
                                     </TableView>
                                  </children>
                               </AnchorPane>
-                              <AnchorPane layoutX="34.0" layoutY="16.0" prefHeight="559.0" prefWidth="232.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                              <AnchorPane layoutX="34.0" layoutY="16.0" prefHeight="559.0" prefWidth="232.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                                  <children>
-                                    <AnchorPane layoutX="50.0" layoutY="36.0" prefHeight="171.0" prefWidth="134.0" styleClass="image-card" stylesheets="@../../../../CSS/DashboardDesain.css">
+                                    <AnchorPane layoutX="50.0" layoutY="36.0" prefHeight="171.0" prefWidth="134.0" styleClass="image-card" stylesheets="@CSS/DashboardDesain.css">
                                        <children>
                                           <ImageView fx:id="availableBooks_imageView" fitHeight="173.0" fitWidth="141.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
                                        </children>
                                     </AnchorPane>
-                                    <Button fx:id="save_btn" layoutX="16.0" layoutY="296.0" mnemonicParsing="false" onAction="#saveBooks" prefHeight="38.0" prefWidth="69.0" styleClass="save-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Save" />
-                                    <Button fx:id="take_btn" layoutX="152.0" layoutY="296.0" mnemonicParsing="false" onAction="#abTakeButton" prefHeight="38.0" prefWidth="69.0" styleClass="take-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Take" />
+                                    <Button fx:id="save_btn" layoutX="16.0" layoutY="296.0" mnemonicParsing="false" onAction="#saveBooks" prefHeight="38.0" prefWidth="69.0" styleClass="save-btn" stylesheets="@CSS/DashboardDesain.css" text="Save" />
+                                    <Button fx:id="take_btn" layoutX="152.0" layoutY="296.0" mnemonicParsing="false" onAction="#abTakeButton" prefHeight="38.0" prefWidth="69.0" styleClass="take-btn" stylesheets="@CSS/DashboardDesain.css" text="Take" />
                                     <Label fx:id="availableBooks_title" layoutX="53.0" layoutY="237.0" text="Programming Lanaguane" textFill="#2a9e57" />
                                     <Label layoutX="104.0" layoutY="263.0" text="Title" />
                                  </children>
@@ -118,14 +118,14 @@
                   </AnchorPane>
                   <AnchorPane fx:id="issue_form" prefHeight="575.0" prefWidth="788.0" visible="false">
                      <children>
-                        <AnchorPane prefHeight="581.0" prefWidth="284.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                        <AnchorPane prefHeight="581.0" prefWidth="284.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                            <children>
-                              <AnchorPane layoutX="74.0" layoutY="37.0" prefHeight="164.0" prefWidth="133.0" styleClass="image-card" stylesheets="@../../../../CSS/DashboardDesain.css">
+                              <AnchorPane layoutX="74.0" layoutY="37.0" prefHeight="164.0" prefWidth="133.0" styleClass="image-card" stylesheets="@CSS/DashboardDesain.css">
                                  <children>
                                     <ImageView fx:id="take_imageView" fitHeight="162.0" fitWidth="139.0" layoutX="-7.0" pickOnBounds="true" preserveRatio="true" />
                                  </children>
                               </AnchorPane>
-                              <AnchorPane layoutX="42.0" layoutY="230.0" prefHeight="138.0" prefWidth="200.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                              <AnchorPane layoutX="42.0" layoutY="230.0" prefHeight="138.0" prefWidth="200.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                                  <children>
                                     <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="35.0" text="Title:" />
                                     <Label layoutX="15.0" layoutY="38.0" prefHeight="17.0" prefWidth="54.0" text=" Author :" />
@@ -137,12 +137,12 @@
                                     <Label fx:id="take_dateLabel" layoutX="108.0" layoutY="86.0" text="Label" />
                                  </children>
                               </AnchorPane>
-                              <Button fx:id="take_clearBtn" layoutX="51.0" layoutY="406.0" mnemonicParsing="false" onAction="#clearTakeData" prefHeight="42.0" prefWidth="78.0" styleClass="clear-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Clear" />
-                              <Button fx:id="take_takeBtn" layoutX="164.0" layoutY="407.0" mnemonicParsing="false" onAction="#takeBook" prefHeight="42.0" prefWidth="74.0" styleClass="take-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Take" />
+                              <Button fx:id="take_clearBtn" layoutX="51.0" layoutY="406.0" mnemonicParsing="false" onAction="#clearTakeData" prefHeight="42.0" prefWidth="78.0" styleClass="clear-btn" stylesheets="@CSS/DashboardDesain.css" text="Clear" />
+                              <Button fx:id="take_takeBtn" layoutX="164.0" layoutY="407.0" mnemonicParsing="false" onAction="#takeBook" prefHeight="42.0" prefWidth="74.0" styleClass="take-btn" stylesheets="@CSS/DashboardDesain.css" text="Take" />
                            </children>
                         </AnchorPane>
                         <Separator layoutX="284.0" layoutY="14.0" orientation="VERTICAL" prefHeight="554.0" prefWidth="0.0" />
-                        <AnchorPane layoutX="295.0" layoutY="-1.0" prefHeight="591.0" prefWidth="505.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                        <AnchorPane layoutX="295.0" layoutY="-1.0" prefHeight="591.0" prefWidth="505.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                            <children>
                               <Label layoutX="26.0" layoutY="22.0" text="Student Details :">
                                  <font>
@@ -184,18 +184,18 @@
                                     <Font size="18.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="take_StudentNumber" layoutX="190.0" layoutY="73.0" prefHeight="29.0" prefWidth="170.0" styleClass="label_take" stylesheets="@../../../../CSS/DashboardDesain.css" text="Label" />
-                              <TextField fx:id="take_FirstName" layoutX="191.0" layoutY="113.0" styleClass="textfield_take" stylesheets="@../../../../CSS/DashboardDesain.css" />
-                              <TextField fx:id="take_LastName" layoutX="191.0" layoutY="148.0" prefHeight="26.0" prefWidth="160.0" styleClass="textfield_take" stylesheets="@../../../../CSS/DashboardDesain.css" />
-                              <ComboBox fx:id="take_Gender" layoutX="193.0" layoutY="185.0" onAction="#gender" prefWidth="150.0" promptText="Silahkan Pilih" styleClass="textfield_take" stylesheets="@../../../../CSS/DashboardDesain.css" />
-                              <TextField fx:id="take_BookTitle" layoutX="200.0" layoutY="293.0" onAction="#findBook" prefHeight="26.0" prefWidth="187.0" styleClass="textfield_take" stylesheets="@../../../../CSS/DashboardDesain.css" />
-                              <Label fx:id="take_IssuedDate" layoutX="198.0" layoutY="347.0" prefHeight="29.0" prefWidth="188.0" styleClass="label_take" stylesheets="@../../../../CSS/DashboardDesain.css" text="Label" />
+                              <Label fx:id="take_StudentNumber" layoutX="190.0" layoutY="73.0" prefHeight="29.0" prefWidth="170.0" styleClass="label_take" stylesheets="@CSS/DashboardDesain.css" text="Label" />
+                              <TextField fx:id="take_FirstName" layoutX="191.0" layoutY="113.0" styleClass="textfield_take" stylesheets="@CSS/DashboardDesain.css" />
+                              <TextField fx:id="take_LastName" layoutX="191.0" layoutY="148.0" prefHeight="26.0" prefWidth="160.0" styleClass="textfield_take" stylesheets="@CSS/DashboardDesain.css" />
+                              <ComboBox fx:id="take_Gender" layoutX="193.0" layoutY="185.0" onAction="#gender" prefWidth="150.0" promptText="Silahkan Pilih" styleClass="textfield_take" stylesheets="@CSS/DashboardDesain.css" />
+                              <TextField fx:id="take_BookTitle" layoutX="200.0" layoutY="293.0" onAction="#findBook" prefHeight="26.0" prefWidth="187.0" styleClass="textfield_take" stylesheets="@CSS/DashboardDesain.css" />
+                              <Label fx:id="take_IssuedDate" layoutX="198.0" layoutY="347.0" prefHeight="29.0" prefWidth="188.0" styleClass="label_take" stylesheets="@CSS/DashboardDesain.css" text="Label" />
                            </children></AnchorPane>
                      </children>
                   </AnchorPane>
                   <AnchorPane fx:id="returnBook_form" layoutX="168.0" layoutY="95.0" prefHeight="599.0" prefWidth="805.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <AnchorPane layoutX="295.0" layoutY="16.0" prefHeight="583.0" prefWidth="476.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                        <AnchorPane layoutX="295.0" layoutY="16.0" prefHeight="583.0" prefWidth="476.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                            <children>
                               <Separator layoutX="-3.0" layoutY="12.0" orientation="VERTICAL" prefHeight="471.0" prefWidth="6.0" />
                               <Label layoutX="15.0" layoutY="10.0" prefHeight="27.0" prefWidth="126.0" text="Issue Books" textFill="#f59181">
@@ -213,20 +213,20 @@
                               </TableView>
                            </children>
                         </AnchorPane>
-                        <AnchorPane layoutX="11.0" layoutY="10.0" prefHeight="577.0" prefWidth="276.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                        <AnchorPane layoutX="11.0" layoutY="10.0" prefHeight="577.0" prefWidth="276.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                            <children>
-                              <AnchorPane layoutX="59.0" layoutY="33.0" prefHeight="209.0" prefWidth="159.0" styleClass="image-card" stylesheets="@../../../../CSS/DashboardDesain.css">
+                              <AnchorPane layoutX="59.0" layoutY="33.0" prefHeight="209.0" prefWidth="159.0" styleClass="image-card" stylesheets="@CSS/DashboardDesain.css">
                                  <children>
                                     <ImageView fx:id="return_imageView" fitHeight="211.0" fitWidth="163.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
                                  </children>
                               </AnchorPane>
-                              <Button fx:id="return_button" layoutX="96.0" layoutY="291.0" mnemonicParsing="false" onAction="#returnBooks" prefHeight="45.0" prefWidth="95.0" styleClass="return-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Return" />
+                              <Button fx:id="return_button" layoutX="96.0" layoutY="291.0" mnemonicParsing="false" onAction="#returnBooks" prefHeight="45.0" prefWidth="95.0" styleClass="return-btn" stylesheets="@CSS/DashboardDesain.css" text="Return" />
                            </children>
                         </AnchorPane>
                      </children></AnchorPane>
                   <AnchorPane fx:id="savedBook_form" layoutX="95.0" layoutY="45.0" prefHeight="599.0" prefWidth="805.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="275.0" prefWidth="781.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                        <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="275.0" prefWidth="781.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                            <children>
                               <TableView fx:id="save_tableView" layoutX="236.0" layoutY="8.0" onMouseClicked="#selectSavedBooks" prefHeight="259.0" prefWidth="538.0">
                                 <columns>
@@ -236,16 +236,16 @@
                                     <TableColumn fx:id="col_saveDate" prefWidth="140.0" text="Published Date" />
                                 </columns>
                               </TableView>
-                              <AnchorPane layoutX="41.0" layoutY="14.0" prefHeight="195.0" prefWidth="167.0" styleClass="image-card" stylesheets="@../../../../CSS/DashboardDesain.css">
+                              <AnchorPane layoutX="41.0" layoutY="14.0" prefHeight="195.0" prefWidth="167.0" styleClass="image-card" stylesheets="@CSS/DashboardDesain.css">
                                  <children>
                                     <ImageView fx:id="save_imageView" fitHeight="195.0" fitWidth="167.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="false" visible="true" />
                                  </children>
                               </AnchorPane>
-                              <Button fx:id="unsaveBtn" layoutX="75.0" layoutY="223.0" mnemonicParsing="false" onAction="#unsaveBooks" prefHeight="38.0" prefWidth="87.0" styleClass="unsave-btn" stylesheets="@../../../../CSS/DashboardDesain.css" text="Unsave" />
+                              <Button fx:id="unsaveBtn" layoutX="75.0" layoutY="223.0" mnemonicParsing="false" onAction="#unsaveBooks" prefHeight="38.0" prefWidth="87.0" styleClass="unsave-btn" stylesheets="@CSS/DashboardDesain.css" text="Unsave" />
                            </children>
                         </AnchorPane>
                         <Separator layoutX="8.0" layoutY="290.0" prefHeight="20.0" prefWidth="785.0" />
-                        <AnchorPane layoutX="14.0" layoutY="321.0" prefHeight="252.0" prefWidth="781.0" styleClass="card-form" stylesheets="@../../../../CSS/DashboardDesain.css">
+                        <AnchorPane layoutX="14.0" layoutY="321.0" prefHeight="252.0" prefWidth="781.0" styleClass="card-form" stylesheets="@CSS/DashboardDesain.css">
                            <children>
                               <ImageView fitHeight="230.0" fitWidth="235.0" layoutX="12.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                                  <image>

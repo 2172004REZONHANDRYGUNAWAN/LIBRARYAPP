@@ -9,12 +9,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="469.0" prefWidth="691.0" styleClass="login-form" stylesheets="@../../../../CSS/desainLogin.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarymanagement.controller.FXMLDocumentController">
+<AnchorPane prefHeight="469.0" prefWidth="691.0" styleClass="login-form" stylesheets="@CSS/desainLogin.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarymanagement.controller.FXMLDocumentController">
    <children>
       <AnchorPane layoutX="123.0" layoutY="68.0" prefHeight="344.0" prefWidth="487.0" styleClass="card-form" stylesheets="@../../../../CSS/desainLogin.css">
          <children>
-            <TextField fx:id="studentNumber" layoutX="110.0" layoutY="155.0" prefHeight="34.0" prefWidth="268.0" promptText="Student Number" styleClass="textfield" stylesheets="@../../../../CSS/desainLogin.css" />
-            <PasswordField fx:id="password" layoutX="110.0" layoutY="202.0" prefHeight="34.0" prefWidth="270.0" promptText="Password" styleClass="textfield" stylesheets="@../../../../CSS/desainLogin.css" />
+            <TextField fx:id="studentNumber" layoutX="110.0" layoutY="155.0" prefHeight="34.0" prefWidth="268.0" promptText="Student Number" styleClass="textfield" stylesheets="@CSS/desainLogin.css" />
+            <PasswordField fx:id="password" layoutX="110.0" layoutY="202.0" prefHeight="34.0" prefWidth="270.0" promptText="Password" styleClass="textfield" stylesheets="@CSS/desainLogin.css" />
             <Button fx:id="login_btn" layoutX="204.0" layoutY="257.0" mnemonicParsing="false" onAction="#login" prefHeight="42.0" prefWidth="78.0" styleClass="login-btn" stylesheets="@../../../../CSS/desainLogin.css" text="Login" />
             <Label layoutX="205.0" layoutY="102.0" text="Login" textFill="WHITE">
                <font>
@@ -28,7 +28,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <Button fx:id="close" layoutX="631.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="46.0" styleClass="close" text="X" textFill="WHITE" />
-      <Button fx:id="minimize" layoutX="576.0" layoutY="11.0" mnemonicParsing="false" onAction="#minimize" prefHeight="26.0" prefWidth="46.0" styleClass="minimize" text="--" textFill="WHITE" />
+      <Button fx:id="close" layoutX="631.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="46.0" styleClass="close" stylesheets="@CSS/desainLogin.css" text="X" textFill="WHITE" />
+      <Button fx:id="minimize" layoutX="576.0" layoutY="11.0" mnemonicParsing="false" onAction="#minimize" prefHeight="26.0" prefWidth="46.0" styleClass="minimize" stylesheets="@CSS/desainLogin.css" text="--" textFill="WHITE" />
    </children>
 </AnchorPane>
